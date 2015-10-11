@@ -11,7 +11,7 @@ use MyOwnWorld\Entities\Skeleton;
 use pocketmine\scheduler\CallbackTask;
 use pocketmine\network\protocol\SetEntityMotionPacket;
 use pocketmine\event\entity\EntityDamageEvent;
-use pocketmine\event\Entity\EntityShootBowEvent;
+use pocketmine\event\entity\EntityShootBowEvent;
 use pocketmine\nbt\NBT;
 use pocketmine\nbt\tag\Byte;
 use pocketmine\nbt\tag\Compound;
