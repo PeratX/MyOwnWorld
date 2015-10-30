@@ -342,7 +342,7 @@ class MyOwnWorld extends PluginBase implements Listener{
 					return 3;
 				}elseif($zoHealth <= 1 and $zoHealth >= 5) {
 					return 4;
-				}
+				}else return 5;
 				break;
 			case 2:
 				if ($zoHealth <= 20 and $zoHealth >= 16) {
@@ -353,7 +353,7 @@ class MyOwnWorld extends PluginBase implements Listener{
 					return 5;
 				}elseif($zoHealth <= 1 and $zoHealth >= 5) {
 					return 6;
-				}
+				}else return 7;
 				break;
 			case 3:
 				if ($zoHealth <= 20 and $zoHealth >= 16) {
@@ -364,7 +364,7 @@ class MyOwnWorld extends PluginBase implements Listener{
 					return 7;
 				}elseif($zoHealth <= 1 and $zoHealth >= 5) {
 					return 9;
-				}
+				}else return 10;
 				break;
 		}
 		return 0;
@@ -385,7 +385,7 @@ class MyOwnWorld extends PluginBase implements Listener{
 					return 3;
 				}elseif($zoHealth <= 1 and $zoHealth >= 5) {
 					return 4;
-				}
+				}else return 5;
 				break;
 			case 2:
 				if ($zoHealth <= 20 and $zoHealth >= 16) {
@@ -396,7 +396,7 @@ class MyOwnWorld extends PluginBase implements Listener{
 					return 5;
 				}elseif($zoHealth <= 1 and $zoHealth >= 5) {
 					return 6;
-				}
+				}else return 7;
 				break;
 			case 3:
 				if ($zoHealth <= 20 and $zoHealth >= 16) {
@@ -407,7 +407,7 @@ class MyOwnWorld extends PluginBase implements Listener{
 					return 7;
 				}elseif($zoHealth <= 1 and $zoHealth >= 5) {
 					return 9;
-				}
+				}else return 10;
 				break;
 		}
 		return 0;
